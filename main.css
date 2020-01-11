@@ -133,3 +133,57 @@ header {
     margin-top: 10px;
     display: none;
 }
+
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background: #fff;
+    margin: 4px 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#close-flyout {
+    display: none;
+}
+
+header ul li a {
+    color: #999;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header ul.is-sticky li a {
+    color: #000;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: #fff;
+}
+
+header ul.is-sticky li a:hover,
+header ul.is-sticky a.active {
+    color: #f69314;
+}
+
+
+/* hero section styles */
+
+#hero {
+    background: url('img/hero.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
